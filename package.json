@@ -1,0 +1,34 @@
+{
+  "name": "goodsverifydapp",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "qrcode": "^1.2.0",
+    "antd": "^3.5.3",
+    "babel-plugin-import": "^1.7.0",
+    "react": "^16.3.2",
+    "react-app-rewired": "^1.5.2",
+    "react-dom": "^16.3.2",
+    "react-scripts": "1.1.4",
+    "axios": "^0.18.0",
+    "bignumber.js": "^5.0.0",
+    "bs58": "^4.0.1",
+    "jssha": "*",
+    "keccak": "^1.0.2",
+    "promise": "^8.0.1",
+    "protobufjs": "^6.8.6",
+    "remove-node-modules": "^1.7.2",
+    "ripemd160": "^2.0.1",
+    "safe-buffer": "^5.1.1",
+    "scryptsy": "^2.0.0",
+    "secp256k1": "^3.5.0",
+    "uuid": "^3.0.1",
+    "htmlescape": "^1.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

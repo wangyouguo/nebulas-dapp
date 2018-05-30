@@ -1,0 +1,87 @@
+@import '~antd/dist/antd.css';
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+.neb-logo{
+  width: 200px;
+  top: 10px;
+  left: 30px;
+  position: absolute;
+}
+.header-layout{
+  background-color: cornflowerblue;
+  color: white;
+  font-size: 1.5em;
+  
+}
+
+.slider-layout{
+  height: 700px;
+  background-color: white
+}
+.content-layout{
+  height: 700px;
+  padding: 20px;
+}
+.goods-search-input{
+
+  width: 500px;
+}
+.error-search-msg-tip{
+  color: red;
+  top: 20px;
+  text-align: left
+}
+
+.form-item-input{
+  width: 400px
+}
+.form-confrim-btn{
+  margin-left: 200px
+}
+
+.result-layout{
+  margin-top: 50px;
+  text-align:left;
+}
+.result-title{
+  margin-top: 150px;
+  height: 200px;
+  background-color: #fafafa
+}
+.error-msg-tip{
+  color: red;
+  top: 30px;
+}
+
+.footer-layout{
+  position: absolute;
+  left:40%;
+  bottom: 20px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
